@@ -1,0 +1,13 @@
+form {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
+}
+
+form > label {
+    grid-column: 1;
+}
+
+form > input {
+    grid-column: 2;
+}
